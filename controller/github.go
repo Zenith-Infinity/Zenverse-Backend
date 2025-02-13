@@ -10,6 +10,7 @@ import (
 	"github.com/whatsauth/itmodel"
 )
 
+//Img Post
 func PostUploadGithub(c *fiber.Ctx) error {
 	var respn itmodel.Response
 
