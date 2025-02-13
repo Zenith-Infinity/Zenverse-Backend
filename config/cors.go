@@ -14,6 +14,7 @@ var origins = []string{
 	"http://127.0.0.1:8080",
 	"https://rayfanaqbil.github.io",
 	"https://hrisz.github.io",
+	"https://zenith-infinity.github.io",
 }
 
 // Mendapatkan host internal dari environment variables

@@ -213,7 +213,7 @@ func UpdateDataGames(c *fiber.Ctx) error {
 	id := c.Params("id")
 
 	objectID, err := primitive.ObjectIDFromHex(id)
-	if err != nil {
+	if err != nil { 
 		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{
 			"status":  http.StatusInternalServerError,
 			"message": err.Error(),
