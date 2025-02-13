@@ -44,6 +44,6 @@ func Web(page *fiber.App, db *mongo.Database) {
         handler.UpdatePasswordAdmin) 
 
 
-    page.Use(middleware.AuthMiddleware())  
-    page.Get("/dashboard", handler.DashboardPage) 
+    page.Get("/dashboard", middleware.AuthMiddleware(), handler.DashboardPage)
+
 }
