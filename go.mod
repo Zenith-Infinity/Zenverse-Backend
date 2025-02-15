@@ -11,7 +11,7 @@ require (
 	github.com/gofiber/swagger v1.0.0
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/google/go-github/v59 v59.0.0
-	github.com/rayfanaqbil/zenverse-BE/v2 v2.4.3
+	github.com/rayfanaqbil/zenverse-BE/v2 v2.4.4
 	github.com/swaggo/swag v1.16.3
 	github.com/whatsauth/itmodel v0.0.8
 	github.com/whatsauth/whatsauth v0.1.82
