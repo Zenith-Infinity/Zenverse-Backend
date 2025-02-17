@@ -431,5 +431,11 @@ func GetAllGamesApps(c *fiber.Ctx) error {
 	}
 
 	ps := cek.GetAllDataGamesApps(config.Ulbimongoconn, "Games", skip)
+
+	if len(ps) == 0 {
+		return c.Status(fiber.StatusNotFound).JSON(fiber.Map{
+			"message": "No games found",
+		})
+	}
 	return c.JSON(ps)
 }
