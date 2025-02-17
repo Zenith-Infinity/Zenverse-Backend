@@ -195,6 +195,8 @@ func InsertDataGames(c *fiber.Ctx) error {
 	})
 }
 
+
+//games
 func InsertDataGamesAdmin(c *fiber.Ctx) error {
 	db := config.Ulbimongoconn
 	var games inimodel.Games
